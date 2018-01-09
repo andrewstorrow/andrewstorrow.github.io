@@ -1,0 +1,111 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "europa";
+  font-size: 16px;
+/*  padding-top: 80px;*/
+}
+
+h2 {
+  font-family: "clavo",sans-serif;
+  font-size: 30px;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.navbar-default {
+/*  height: 85px;*/
+  padding: 15px 0;
+  background-color: #28a300;
+  color: #ffffff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ededed;
+}
+
+.navbar a.navbar-brand {
+  font-family: "clavo";
+  font-size: 45px;
+  color: #ffffff;
+}
+
+.navbar ul.nav li {
+  padding-top: 2px;
+}
+
+.navbar ul.nav li a {
+  color:#fff;
+  font-family: "clavo";
+  font-size: 21px;
+}
+
+.masthead {
+  background: url(../imgs/Jumbotron.jpg) no-repeat center center;
+  background-size: cover;
+  height:685px;
+}
+
+.mastheadText {
+  position: absolute;
+  top: 35%;
+  transform: translateY(-65%);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.masthead h1 {
+  text-align: center;
+  font-size: 96px;
+  font-family: "clavo";
+  font-weight: 600;
+  color: #02ea3b;
+  text-shadow: 4px 4px 5px #111;
+}
+
+.masthead h2 {
+  text-align: center;
+  font-size: 36px;
+  font-family: "clavo";
+  font-weight: 600;
+  color: #02ea3b;
+  margin-top: 10px;
+  text-shadow: 4px 4px 5px #111;
+}
+
+.about1 {
+  padding: 45px 0;
+}
+
+.profile_image {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.about2 {
+  color: #fff;
+  background-color: #ef580c;
+}
+
+.about2 p {
+  margin: 20px 0 20px;
+}
+
+.tree_image {
+  padding-right: 0;
+}
+
+/*
+.about2 img {
+  padding-left: 1px;
+}
+
+.about2 p {
+  background-color: #ef580c;
+  padding-top:120px;
+}*/
